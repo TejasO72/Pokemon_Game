@@ -23,7 +23,13 @@ This project demonstrates key OOP concepts:
 
 ### 🧬 Inheritance
 
-While not explicitly shown, the structure allows for easy implementation of subclasses (e.g., different types of items or Pokémon)
+While our Pokémon are unique, they share common traits. Our code structure is ready for evolution:
+
+public class FirePokemon extends Pokemon {
+    public FirePokemon(String name, int health, int attack, int defence, int speed, int level) {
+        super(name, "Fire", health, attack, defence, speed, level, false);
+    }
+
 
 ### 🔒 Encapsulation
 
