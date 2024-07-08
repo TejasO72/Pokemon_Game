@@ -53,16 +53,10 @@ The `Main` class orchestrates the game flow:
 - **Modularity**: Each class has a specific role, promoting code organization
 - **Code Reuse**: Methods like `calculateDamage` used across different contexts
 
-## 🚀 Future Enhancements
-
-- Graphical User Interface
-- More Pokémon and moves
-- Save/Load game feature
-- Multiplayer battles
 
 ## 🛠️ How to Run
 
-1. Compile all Java files
+1. Compile all Java files using an IDE
 2. Run the `Main` class
 3. Follow on-screen prompts to play the game
 
